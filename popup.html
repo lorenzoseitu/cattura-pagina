@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cattura pagina</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Cattura pagina</h1>
+
+    <section>
+      <h2>Pagina intera</h2>
+      <div class="row">
+        <button data-area="full" data-format="jpg">JPG</button>
+        <button data-area="full" data-format="pdf">PDF</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Parte visibile</h2>
+      <div class="row">
+        <button data-area="visible" data-format="jpg">JPG</button>
+        <button data-area="visible" data-format="pdf">PDF</button>
+      </div>
+    </section>
+
+    <p id="status" role="status"></p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
