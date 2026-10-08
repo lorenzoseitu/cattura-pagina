@@ -3,6 +3,13 @@
 Salva la pagina web aperta come **JPG** o **PDF**, solo la parte visibile oppure la pagina intera.
 Nessuna libreria esterna, nessuna chiamata di rete: tutto resta sul computer.
 
+## Browser
+
+- **Chrome** su computer (versione 116 o successiva): provata, funziona.
+- **Edge, Brave, Vivaldi, Opera, Arc**: usano lo stesso motore e le stesse estensioni di Chrome, quindi dovrebbe funzionare, ma non è stata provata. La pagina delle estensioni si apre con `edge://extensions`, `brave://extensions` e simili.
+- **Firefox e Safari**: non funziona.
+- **Telefono** (Android e iPhone): non funziona, Chrome su telefono non accetta estensioni.
+
 ## Installazione
 
 1. Scarica l'estensione: in questa pagina GitHub clicca **Code → Download ZIP** e decomprimi il file
